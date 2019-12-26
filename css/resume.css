@@ -112,10 +112,17 @@ p.lead {
   background-color: #007bff;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link {
+.nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+}
+
+.nav-sub-link {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.05rem;  
+  font-size: 14px;
 }
 
 #sideNav .navbar-toggler:focus {
