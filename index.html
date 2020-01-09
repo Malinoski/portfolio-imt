@@ -98,25 +98,39 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-xl-4 col-sm-6">
-                  <img class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578578666631.png" alt="">                    
+                  <img 
+                    class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578578666631.png" alt="" 
+                    data-toggle="modal" data-target="#imageModal" data-resume-image-path="img/projects/dockthor/1578578666631.png">
                 </div>
                 <div class="col-xl-4 col-sm-6">
-                  <img class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578578834356.png" alt="" >
+                  <img 
+                    class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578578834356.png" alt="" 
+                    data-toggle="modal" data-target="#imageModal" data-resume-image-path="img/projects/dockthor/1578578834356.png">
                 </div>
                 <div class="col-xl-4 col-sm-6">
-                  <img class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578579000867.png" alt="">                    
+                  <img 
+                    class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578579000867.png" alt=""
+                    data-toggle="modal" data-target="#imageModal" data-resume-image-path="img/projects/dockthor/1578579000867.png">
                 </div>
                 <div class="col-xl-4 col-sm-6">
-                  <img class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578579067163.png" alt="" >
+                  <img 
+                    class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578579067163.png" alt=""
+                    data-toggle="modal" data-target="#imageModal" data-resume-image-path="img/projects/dockthor/1578579067163.png">
                 </div>
                 <div class="col-xl-4 col-sm-6">
-                  <img class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578579153099.png" alt="">                    
+                  <img 
+                    class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578579153099.png" alt=""
+                    data-toggle="modal" data-target="#imageModal" data-resume-image-path="img/projects/dockthor/1578579153099.png">
                 </div>
                 <div class="col-xl-4 col-sm-6">
-                  <img class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578579400961.png" alt="">                    
+                  <img 
+                    class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/projects/dockthor/1578579400961.png" alt=""
+                    data-toggle="modal" data-target="#imageModal" data-resume-image-path="img/projects/dockthor/1578579400961.png">
                 </div>
                 <div class="col-xl-4 col-sm-6">
-                  <img class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/general-diagrams/state-diagram.png" alt="">                    
+                  <img 
+                    class="img-fluid shadow p-3 mb-5 bg-white rounded resume-thumnail" src="img/general-diagrams/state-diagram.png" alt=""
+                    data-toggle="modal" data-target="#imageModal" data-resume-image-path="img/general-diagrams/state-diagram.png">
                 </div>
               </div>
             </div>
@@ -128,12 +142,14 @@
 
     </section>
 
-    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
-            <div class="modal-body">
-                <img src="//placehold.it/1000x600" class="img-responsive">
-            </div>
+          <div class="modal-body">
+              <div class="text-center">
+                <img id="modalImage" class="img-fluid" src="" alt="" >
+              </div>
+          </div>
         </div>
       </div>
     </div>

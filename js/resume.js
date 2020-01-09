@@ -25,4 +25,12 @@
     target: '#sideNav'
   });
 
+  // Modal Image
+  $('#imageModal').on('show.bs.modal', function (event) {
+    var objectTriggered = $(event.relatedTarget) // Object that triggered the modal
+    var path = objectTriggered.data('resume-image-path') // Extract info from data-* attributes
+    var modal = $(this)        
+    modal.find('#modalImage').attr("src",path);
+  })
+  
 })(jQuery); // End of use strict
