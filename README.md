@@ -1,19 +1,14 @@
-# Readme
+# Iuri's Portfolio
 
 This is my portfolio and feel free to use it =)
 
-<!-- # Want to see running? 
+## Want to see running at Gitpod? 
 
-Use your github account and use Gitpod and access the URL below!
+Use your github account with the URL below!
 
 [http://gitpod.io/#github.com/Malinoski/portfolio-imt](http://gitpod.io/#github.com/Malinoski/portfolio-imt) 
 
-Then run in terminal
-
+To run, execute:
 ```
-gp init
-yarn
-npm start
+node server.js
 ```
--->
-
