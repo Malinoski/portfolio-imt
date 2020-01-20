@@ -180,14 +180,3 @@ a {
 a:hover, a:focus, a:active {
   color: #007bff;
 }
-
-.resume-thumnail {
-  object-fit: cover; 
-  object-position: top;
-  width: 300px; 
-  height: 300px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.resume-thumnail:hover {opacity: 0.7;}
